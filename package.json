@@ -1,0 +1,9 @@
+{
+  "name": "promiserator",
+  "version": "1.0.0",
+  "description": "Remove pesky iterators in favor of promises that resolve into each other!",
+  "main": "index.js",
+  "scripts": {},
+  "author": "tanishalfelven",
+  "license": "ISC"
+}
