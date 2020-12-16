@@ -1,4 +1,4 @@
-module.exports = (iterable) => {
+const promiserator = (iterable) => {
     let it;
 
     if ("next" in iterable) {
@@ -26,3 +26,5 @@ module.exports = (iterable) => {
 
     return p;
 }
+
+module.exports = promiserator;
